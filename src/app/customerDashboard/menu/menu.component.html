@@ -1,0 +1,51 @@
+<app-navbar></app-navbar>
+
+   <div class="menu-container">
+     <h1>Menu</h1>
+   
+     <!-- Filter Switch -->
+     <div class="filter-container">
+      <mat-slide-toggle [(ngModel)]="showVegOnly" (change)="filterMenu()" [ngClass]="{'veg-toggle': showVegOnly, 'nonveg-toggle': !showVegOnly}">
+        Veg
+      </mat-slide-toggle>
+      <mat-slide-toggle [(ngModel)]="showNonVegOnly" (change)="filterMenu()" [ngClass]="{'veg-toggle': showNonVegOnly, 'nonveg-toggle': !showNonVegOnly}">
+        Non-Veg
+      </mat-slide-toggle>
+      
+     </div>
+  
+      <div *ngIf="!isLoading && menuItems.length === 0">
+        <p>No items available for this restaurant.</p>
+      </div>
+   
+     <!-- Menu Grid -->
+     <mat-grid-list cols="3" rowHeight="350px" *ngIf="!isLoading && filteredMenuItems.length > 0">
+       <mat-grid-tile *ngFor="let item of filteredMenuItems">
+         <mat-card class="menu-card">
+           <img mat-card-image [src]="item.imagePath || 'assets/default-food.jpg'" alt="{{ item.name }}" />
+   
+           <div class="veg-nonveg-badge" [class.veg]="item.isVeg" [class.nonveg]="!item.isVeg">
+             {{ item.isVeg ? 'Veg' : 'Non-Veg' }}
+           </div>
+   
+           <mat-card-content>
+             <h2>{{ item.name }}</h2>
+             <p><strong>Price:</strong> ₹{{ item.price }}</p>
+           </mat-card-content>
+   
+           <mat-card-actions>
+             <button id="addbtn" *ngIf="getItemQuantity(item.itemId) === 0" mat-raised-button  (click)="addToCart(item)">
+               Add
+             </button>
+             <div *ngIf="getItemQuantity(item.itemId) > 0" class="quantity-control">
+               <button mat-mini-button color="primary" (click)="decrementQuantity(item.itemId)">-</button>
+               <span>{{ getItemQuantity(item.itemId) }}</span>
+               <button mat-mini-button color="primary" (click)="incrementQuantity(item.itemId)">+</button>
+             </div>
+           </mat-card-actions>
+         </mat-card>
+       </mat-grid-tile>
+     </mat-grid-list>
+   </div>
+   
+

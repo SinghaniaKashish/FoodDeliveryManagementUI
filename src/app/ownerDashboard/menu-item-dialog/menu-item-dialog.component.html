@@ -1,0 +1,55 @@
+<mat-dialog-content>
+    <form (ngSubmit)="onSave()" #menuItemForm="ngForm" novalidate>
+      <mat-form-field>
+        <mat-label>Item Name</mat-label>
+        <input matInput [(ngModel)]="menuItem.name" name="name" required>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Category</mat-label>
+        <input matInput [(ngModel)]="menuItem.category" name="category" required>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Price</mat-label>
+        <input matInput type="number" [(ngModel)]="menuItem.price" name="price" required>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Cuisine Type</mat-label>
+        <input matInput [(ngModel)]="menuItem.cuisineType" name="cuisineType" required>
+      </mat-form-field>
+  
+      <mat-checkbox [(ngModel)]="menuItem.availability" name="availability">Available</mat-checkbox>
+      
+      <mat-checkbox [(ngModel)]="menuItem.isVeg" name="isVeg">Vegetarian</mat-checkbox>
+  
+      <mat-form-field>
+        <mat-label>Image Path</mat-label>
+        <input matInput [(ngModel)]="menuItem.imagePath" name="imagePath">
+      </mat-form-field>
+  
+      
+      <mat-label>Ingredients</mat-label>
+      <div *ngFor="let ingredient of menuItem.ingredients; let i = index">
+        <mat-form-field>
+          <mat-label>Ingredient Name</mat-label>
+          <input matInput [(ngModel)]="ingredient.ingredientName" name="ingredientName{{i}}" required>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Quantity</mat-label>
+          <input matInput type="number" [(ngModel)]="ingredient.quantity" name="ingredientQuantity{{i}}" min="0.01" max="1000" required>
+        </mat-form-field>
+        <button mat-icon-button (click)="removeIngredient(i)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+      <button mat-button (click)="addIngredient()">Add Ingredient</button>
+      
+    <div class="actions">
+      <button mat-raised-button color="primary" type="submit">Save</button>
+      <button mat-button color="warn" (click)="onCancel()">Cancel</button>
+    </div>
+    </form>
+  </mat-dialog-content>
+  

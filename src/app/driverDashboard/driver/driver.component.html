@@ -1,0 +1,59 @@
+   <div class="driver-dashboard">
+    <mat-card class="profile-card">
+      <mat-card-title>Driver Dashboard</mat-card-title>
+      <mat-card-content class="card-content">
+        <div class="left-content">
+          <p><strong>Name:</strong> {{ userName }}</p>
+          <p><strong>Email:</strong> {{ userEmail }}</p>
+        </div>
+        <div class="right-content">
+          <button mat-raised-button color="warn" (click)="authService.logout()">Logout</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  
+    <div class="delivery-image-container">
+      <div class="delivery-section">
+        <h2>My Deliveries</h2>
+        <div *ngIf="deliveries.length > 0; else noDeliveries">
+          <mat-accordion>
+            <mat-expansion-panel *ngFor="let delivery of deliveries">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Delivery_ID: {{ delivery.deliveryId }}
+                </mat-panel-title>
+                <mat-panel-description>
+                  Status: {{ delivery.orderStatus }}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="delivery-details">
+                <p><strong>Order ID:</strong> {{ delivery.orderId }}</p>
+                <p><strong>Address:</strong> {{ delivery.deliveryAddress }}</p>
+                <p><strong>Total:</strong> ₹{{ delivery.totalamount }}</p>
+                <p><strong>Status:</strong> {{ delivery.orderStatus }}</p>
+              </div>
+              <div *ngIf="feedback && feedback.orderId === delivery.orderId">
+                <h3>Feedback</h3>
+                <p><strong>Professionalism:</strong> {{ feedback.deliveryDriverRating }}/5</p>
+                <p><strong>Delivery Time:</strong> {{ feedback.deliveryTimeRating }}/5</p>
+              </div>
+              <div *ngIf="delivery.orderStatus === 'OutForDelivery'">
+                <button mat-raised-button color="primary" (click)="markAsDelivered(delivery.deliveryId)">
+                  Mark as Delivered
+                </button>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </div>
+        <ng-template #noDeliveries>
+          <mat-card class="no-deliveries-card">
+            <mat-card-content>No deliveries assigned to you.</mat-card-content>
+          </mat-card>
+        </ng-template>
+      </div>
+      <div class="image-section">
+        <img src="../../../assets/driver.jpg" alt="Driver" />
+      </div>
+    </div>
+  </div>
+  

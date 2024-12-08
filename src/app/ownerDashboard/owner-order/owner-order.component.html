@@ -1,0 +1,54 @@
+<app-owner-sidebar> </app-owner-sidebar>
+
+<div class="owner-orders">
+    <h1>Orders Dashboard</h1>
+
+    <!-- Restaurant List Section -->
+    <div class="restaurant-list" *ngIf="restaurants.length; else noRestaurants">
+        <mat-card *ngFor="let restaurant of restaurants" class="restaurant-item" (click)="selectRestaurant(restaurant)">
+          <mat-card-title>{{ restaurant.name }}</mat-card-title>
+          <mat-card-content>{{ restaurant.address }}</mat-card-content>
+        </mat-card>
+      </div>
+    
+      <ng-template #noRestaurants>
+        <p>No restaurants found. Please add restaurants.</p>
+      </ng-template>
+
+    <div *ngIf="orders.length > 0; " class="order-list">
+      <div *ngFor="let order of orders" class="order-card">
+        <h3>Order ID: {{ order.orderId }}</h3>
+        <p>Status: {{ order.status }}</p>
+        <p>Delivery Address: {{ order.deliveryAddress }}</p>
+        <p>Total Amount: {{ order.totalAmount  }}</p>
+        <ul>
+          <li *ngFor="let detail of order.orderDetails">
+            {{ detail.quantity }} x {{ detail.name }} - {{ detail.price  }}
+          </li>
+        </ul>
+        <!-- Update Order Status Section -->
+    <div class="update-status" *ngIf="canUpdateStatus(order.status)">
+      <p>Update Status:</p>
+      <button 
+        *ngIf="order.status === 'Pending'" 
+        mat-raised-button color="primary" 
+        (click)="updateOrderStatus(order.orderId, 'Accepted')">
+        Accept
+      </button>
+      <button 
+        *ngIf="order.status === 'Accepted'" 
+        mat-raised-button color="accent" 
+        (click)="updateOrderStatus(order.orderId, 'Prepared')">
+        Mark as Prepared
+      </button>
+    </div>
+    <div *ngIf="order.status === 'Prepared'" class="assign-driver">
+      <button mat-raised-button color="primary" (click)="assignDriver(order.orderId)">
+        Assign Driver
+      </button>
+    </div>
+      </div>
+    </div>
+    
+  </div>
+  

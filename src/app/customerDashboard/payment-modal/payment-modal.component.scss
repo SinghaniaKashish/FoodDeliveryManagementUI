@@ -1,0 +1,32 @@
+.order-card {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-method-group mat-radio-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-method-group mat-icon {
+    margin-right: 8px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+  }
+  
+  button mat-icon {
+    margin-right: 8px;
+  }
+  

@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <h1 class="header">Explore Restaurants</h1>
+
+  <!-- Restaurant Grid -->
+  <div *ngIf="!isLoading && restaurants.length > 0" class="grid-container">
+    <mat-grid-list
+      [cols]="gridCols"
+      [gutterSize]="gutterSize"
+      rowHeight="400px"
+    >
+      <mat-grid-tile *ngFor="let restaurant of restaurants">
+        <mat-card class="restaurant-card" (click)="viewMenu(restaurant.restaurantId)">
+          <div class="card-image">
+            <img
+              mat-card-image
+              [src]="restaurant.imagePath || 'assets/default-restaurant.jpg'"
+              alt="{{ restaurant.name }}"
+            />
+          </div>
+          <mat-card-content>
+            <h2 class="restaurant-name">{{ restaurant.name }}</h2>
+            <p><mat-icon>location_on</mat-icon> {{ restaurant.address }}</p>
+            <p><mat-icon>fastfood</mat-icon> {{ restaurant.cuisineTypes.join(', ') }}</p>
+            <p><mat-icon>phone</mat-icon> {{ restaurant.phone }}</p>
+            <p><mat-icon>schedule</mat-icon> {{ restaurant.hoursOfOperation }}</p>
+            <p class="status" [class.open]="restaurant.status">
+              <mat-icon>info</mat-icon>
+              Status: <span>{{ restaurant.status ? 'Open' : 'Closed' }}</span>
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>

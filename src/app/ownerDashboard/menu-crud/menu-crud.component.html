@@ -1,0 +1,47 @@
+<app-owner-sidebar> </app-owner-sidebar>
+
+<div class="menu-crud-container">
+    <h2>Select Restaurant</h2>
+  
+    <!-- Restaurant List Section -->
+    <div class="restaurant-list" *ngIf="restaurants.length; else noRestaurants">
+      <mat-card *ngFor="let restaurant of restaurants" class="restaurant-item" (click)="selectRestaurant(restaurant)">
+        <mat-card-title>{{ restaurant.name }}</mat-card-title>
+        <mat-card-content>{{ restaurant.address }}</mat-card-content>
+      </mat-card>
+    </div>
+  
+    <ng-template #noRestaurants>
+      <p>No restaurants found. Please add restaurants.</p>
+    </ng-template>
+  
+    <!-- Menu Section -->
+    <div *ngIf="selectedRestaurant" class="menu-section">
+      <h3>{{ selectedRestaurant.name }} Menu</h3>
+  
+      <!-- Menu Items List -->
+      <div *ngIf="menuItems.length; else noMenuItems">
+        <mat-list>
+          <div *ngFor="let item of menuItems" class="menu-item">
+            <div mat-line><strong>Name:</strong> {{ item.name }}</div>
+            <div mat-line><strong>Category:</strong> {{ item.category }}</div>
+            <div mat-line><strong>Price:</strong> {{ item.price }}</div>
+            <div class="menu-actions">
+              <button mat-button color="warn" (click)="deleteMenuItem(item.itemId)">Delete</button>
+              <button mat-button color="primary" (click)="editMenuItem(item)">Edit</button>
+            </div>
+          </div>
+        </mat-list>
+      </div>
+
+      <ng-template #noMenuItems>
+        <p>No menu items available for this restaurant.</p>
+      </ng-template>
+      
+      
+  
+      <!-- Add New Menu Item Button -->
+      <button mat-raised-button color="accent" (click)="addMenuItem()">Add New Item</button>
+    </div>
+  </div>
+  

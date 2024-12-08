@@ -1,0 +1,25 @@
+.owner-feedback {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    margin-left: 10% ;
+    margin-top: 20px;
+    width: -webkit-fill-available;
+    top: 0px;
+  
+    mat-card {
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+  
+    .feedback-section {
+      margin-top: 30px;
+  
+      .feedback-card {
+        margin-bottom: 15px;
+        border: 1px solid #e0e0e0;
+      }
+    }
+  }
+  

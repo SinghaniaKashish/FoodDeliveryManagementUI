@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+<div class="profile-container mat-elevation-z2">
+  <div class="profile-header">
+    <div class="user-info">
+      <h2>{{ userName }}</h2>
+      <p>{{ userEmail }}</p>
+    </div>
+    <button mat-button color="warn" (click)="logout()">Logout</button>
+  </div>
+
+  <h3>Order History</h3>
+
+  <div class="orders-container">
+    <div *ngIf="orders.length > 0; else noOrders">
+      <mat-card *ngFor="let order of orders" class="order-card">
+        <div class="order-header">
+          <p class="address">{{ order.deliveryAddress }}</p>
+          <p class="total-amount">Total: {{ order.totalAmount  }}</p>
+          <p class="status">{{ order.status }}</p>
+        </div>
+
+        <div class="order-details">
+          <mat-divider></mat-divider>
+          <ul>
+            <li *ngFor="let detail of order.orderDetails" class="order-item">
+              <span class="item-name">{{ detail.name }}</span>
+              <span class="item-quantity">x{{ detail.quantity }}</span>
+              <span class="item-price">{{ detail.price }}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="order-footer">
+          <p class="order-date">Ordered on: {{ order.orderDate | date: 'medium' }}</p>
+          <button class="checkoutbtn" mat-raised-button *ngIf="order.status == 'Delivered'" [disabled]="order.status !== 'Delivered'" (click)="openRatingDialog(order)">Rate Order</button>
+        </div>
+      </mat-card>
+    </div>
+    <ng-template #noOrders>
+      <p>No orders found.</p>
+    </ng-template>
+  </div>
+</div>

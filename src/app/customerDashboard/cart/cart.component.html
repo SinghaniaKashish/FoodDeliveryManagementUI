@@ -1,0 +1,35 @@
+<app-navbar> </app-navbar>
+
+<div class="cart-container">
+  <h1>My Cart</h1>
+
+  <div *ngIf="cartItems.length > 0" class="cart-items">
+    <div class="cart-item" *ngFor="let item of cartItems; let i = index">
+      <div class="item-info">
+        <h3>{{ item.itemName }}</h3>
+        <p>₹{{ item.price }}</p>
+      </div>
+      <div class="quantity-controls">
+        <button mat-icon-button color="primary" (click)="decrementQuantity(item.menuItemId)" [disabled]="item.quantity === 1">
+          <mat-icon>remove</mat-icon>
+        </button>
+        <span>{{ item.quantity }}</span>
+        <button mat-icon-button color="primary" (click)="incrementQuantity(item.menuItemId)">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+      <button mat-icon-button color="warn" (click)="removeItem(item.menuItemId)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="cartItems.length === 0" class="empty-cart">
+    <p>Your cart is empty. Start adding items!</p>
+  </div>
+
+  <div class="cart-summary" *ngIf="cartItems.length > 0">
+    <h2>Total: ₹{{ calculateTotal() }}</h2>
+    <button mat-raised-button (click)="checkout()">Checkout</button>
+  </div>
+</div>

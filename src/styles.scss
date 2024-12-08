@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root {
+    --blueberry: #410d67;
+    --strawberry: #d72344;
+  }
+
+  button{
+    color:white;
+    background-color: #410d67;
+    padding: 7px;
+    border-radius: 5px;
+  }

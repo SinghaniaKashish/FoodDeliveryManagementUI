@@ -1,0 +1,78 @@
+.menu-crud-container {
+    padding: 16px;
+    position: absolute;
+    margin-left: 10% ;
+    margin-top: 20px;
+    width: -webkit-fill-available;
+    top: 0px;
+  
+    h2, h3 {
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+  
+    .restaurant-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+  
+      .restaurant-item {
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+    }
+  
+    .menu-section {
+      margin-top: 32px;
+  
+      .menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+    }
+  }
+  
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .menu-item div {
+    margin: 5px 0;
+  }
+  
+  mat-list-item {
+    padding: 15px;
+  }
+  
+
+  .menu-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-item div {
+    margin: 5px 0;
+  }
+  
+  .menu-actions {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: gray;
+  }
+  

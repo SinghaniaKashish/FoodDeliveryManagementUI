@@ -1,0 +1,32 @@
+<app-owner-sidebar> </app-owner-sidebar>
+<div class="dashboard-container">
+    
+    <button mat-raised-button class = "logoutbtn" (click)="logout()">Logout</button>
+  
+    <section class="statistics-section" *ngIf="!loading; else loadingTemplate">
+      <div *ngIf="restaurants.length > 0; else noRestaurants">
+        
+        <div *ngFor="let restaurant of restaurants" class="restaurant-card">
+          <h2>{{ restaurant.name }}</h2>
+          <p>Total Revenue:  {{ restaurant.totalRevenue  }}</p>
+          <p>Revenue This Month: {{ restaurant.revenueThisMonth }}</p>
+          <p>
+            Best Seller: 
+            <span *ngIf="restaurant.bestSeller; else noBestSeller">
+              {{ restaurant.bestSeller.itemName }} ({{ restaurant.bestSeller.totalQuantity }} sold)
+            </span>
+          </p>
+          <ng-template #noBestSeller>Not available</ng-template>
+        </div>
+      </div>
+    </section>
+  
+    <ng-template #loadingTemplate>
+      <mat-spinner></mat-spinner>
+    </ng-template>
+  
+    <ng-template #noRestaurants>
+      <p>No restaurants found for this owner.</p>
+    </ng-template>
+  </div>
+  

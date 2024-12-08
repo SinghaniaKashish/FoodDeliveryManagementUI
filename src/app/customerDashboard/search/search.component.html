@@ -1,0 +1,37 @@
+<app-navbar></app-navbar>
+<div class="search-container">
+  <h2 class="search-header">Find Your Favorite Restaurants</h2>
+
+  <!-- Search Form -->
+  <form (ngSubmit)="searchRestaurants()" class="search-form">
+    <mat-form-field class="input-field name-field">
+      <mat-label>Search by Name</mat-label>
+      <input matInput [(ngModel)]="keyword" name="keyword" />
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="search-button" type="submit">
+      <mat-icon>search</mat-icon> Search
+    </button>
+    <mat-form-field class="input-field cuisine-field">
+      <mat-label>Search by Cuisine</mat-label>
+      <input matInput [(ngModel)]="cuisineType" name="cuisineType" />
+    </mat-form-field>
+  </form>
+
+  <!-- Results Section -->
+  <div *ngIf="restaurants.length > 0; else noResults" class="grid-container">
+    <div class="restaurant-card" *ngFor="let restaurant of restaurants" (click)="viewMenu(restaurant.restaurantId)">
+      <img class="card-image" [src]="restaurant.imagePath || 'assets/default-restaurant.jpg'" alt="{{ restaurant.name }}" />
+      <div class="card-content">
+        <h2 class="restaurant-name">{{ restaurant.name }}</h2>
+        <p><mat-icon>fastfood</mat-icon> {{ restaurant.cuisineTypes }}</p>
+        <p><mat-icon>location_on</mat-icon> {{ restaurant.address }}</p>
+        <p><mat-icon>phone</mat-icon> {{ restaurant.phone }}</p>
+        <button mat-raised-button color="accent">View Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noResults>
+    <p class="no-results">No restaurants found. Try refining your search.</p>
+  </ng-template>
+</div>

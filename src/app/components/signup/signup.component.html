@@ -1,0 +1,108 @@
+<div class="signup-container">
+    <mat-card>
+      <h2>Signup</h2>
+      <form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+        <!-- Username -->
+        <mat-form-field appearance="fill">
+          <mat-label>Username</mat-label>
+          <input
+            matInput
+            [(ngModel)]="user.username"
+            name="username"
+            required
+            #username="ngModel"
+          />
+          <mat-error *ngIf="username.invalid && username.touched">
+            Username is required.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Email -->
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            type="email"
+            [(ngModel)]="user.email"
+            name="email"
+            required
+            #email="ngModel"
+          />
+          <mat-error *ngIf="email.invalid && email.touched">
+            <span *ngIf="email.errors?.['required']">Email is required.</span>
+            <span *ngIf="email.errors?.['email']">Invalid email format.</span>
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Phone Number -->
+        <mat-form-field appearance="fill">
+          <mat-label>Phone Number</mat-label>
+          <input
+            matInput
+            type="tel"
+            [(ngModel)]="user.phoneNumber"
+            name="phoneNumber"
+            required
+            pattern="[0-9]{10}"
+            #phoneNumber="ngModel"
+          />
+          <mat-error *ngIf="phoneNumber.invalid && phoneNumber.touched">
+            <span *ngIf="phoneNumber.errors?.['required']">Phone number is required.</span>
+            <span *ngIf="phoneNumber.errors?.['pattern']">Invalid phone number format.</span>
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Password -->
+        <mat-form-field appearance="fill">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            type="password"
+            [(ngModel)]="user.passwordHash"
+            name="password"
+            required
+            minlength="6"
+            #password="ngModel"
+          />
+          <mat-error *ngIf="password.invalid && password.touched">
+            <span *ngIf="password.errors?.['required']">Password is required.</span>
+            <span *ngIf="password.errors?.['minlength']">
+              Password must be at least 6 characters.
+            </span>
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Role -->
+        <mat-form-field appearance="fill">
+          <mat-label>Role</mat-label>
+          <mat-select
+            [(ngModel)]="user.role"
+            name="role"
+            required
+            #role="ngModel"
+          >
+            <mat-option *ngFor="let role of roles" [value]="role">
+              {{ role }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="role.invalid && role.touched">Role is required.</mat-error>
+        </mat-form-field>
+  
+        <!-- Submit Button -->
+        <button mat-raised-button type="submit" [disabled]="signupForm.invalid">
+          Signup
+        </button>
+      </form>
+      <p>
+        Already have an account? 
+        <a routerLink="/login">Login</a>
+      </p>
+      
+      <!-- Display error message -->
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+
+    </mat-card>
+  </div>
+  

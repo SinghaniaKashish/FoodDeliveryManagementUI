@@ -1,0 +1,40 @@
+<app-owner-sidebar> </app-owner-sidebar>
+<div class="owner-feedback">
+    <h1>Restaurant Feedback</h1>
+  
+    <mat-card>
+        <h2>Select Restaurant</h2>
+        <!-- Restaurant List Section -->
+        <div class="restaurant-list" *ngIf="restaurants.length; else noRestaurants">
+          <mat-card *ngFor="let restaurant of restaurants" class="restaurant-item" (click)="selectRestaurant(restaurant)">
+            <mat-card-title>{{ restaurant.name }}</mat-card-title>
+            <mat-card-content>{{ restaurant.address }}</mat-card-content>
+          </mat-card>
+        </div>
+      
+        <ng-template #noRestaurants>
+          <p>No restaurants found. Please add restaurants.</p>
+        </ng-template>
+  </mat-card>
+    <div *ngIf="selectedRestaurant" class="feedback-section">
+      <h2>Feedback for {{ selectedRestaurant.name }}</h2>
+      <div *ngIf="feedbacks.length > 0; else noFeedback">
+        <mat-card *ngFor="let feedback of feedbacks" class="feedback-card">
+          <mat-card-header>
+            <mat-card-title>Feedback ID: {{ feedback.feedbackId }}</mat-card-title>
+            <mat-card-subtitle>{{ feedback.feedbackDate | date: 'medium' }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p><strong>Food Rating:</strong> {{ feedback.foodRating }}/5</p>
+            <p><strong>Delivery Time Rating:</strong> {{ feedback.deliveryTimeRating }}/5</p>
+            <p><strong>Delivery Driver Rating:</strong> {{ feedback.deliveryDriverRating }}/5</p>
+            <p><strong>Comments:</strong> {{ feedback.comments }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <ng-template #noFeedback>
+        <p>No feedback available for this restaurant.</p>
+      </ng-template>
+    </div>
+  </div>
+  

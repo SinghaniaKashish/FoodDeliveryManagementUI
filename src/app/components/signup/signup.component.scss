@@ -1,0 +1,61 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+    background-image: url(../../../assets/Backdrop.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+    mat-card {
+      width: 450px;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      background-color: rgba(91, 91, 91, 0.4);
+
+  
+      h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: whitesmoke;
+        font-weight: 600;
+        font-size: 26px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+  
+        button {
+          align-self: center;
+          padding: 12px 20px;
+          font-size: 18px;
+          background-color: var(--blueberry);
+          color: white;
+          font-weight: 500;
+          border: none;
+          border-radius: 8px;
+        }
+        button:disabled {
+            background-color: #b5b3b3;
+            cursor: not-allowed;
+            color: #ffffff;
+        }
+        
+      }
+    }
+}
+mat-card p{
+  text-align: center;
+  color:whitesmoke;
+}
+
+.error-message {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+  

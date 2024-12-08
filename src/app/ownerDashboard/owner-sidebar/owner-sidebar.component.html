@@ -1,0 +1,25 @@
+ <mat-sidenav-container class="sidenav-container">
+    <!-- Sidebar -->
+    <mat-sidenav #sidenav mode="side" [(opened)]="isSidenavOpen" class="sidenav">
+      <button mat-icon-button class="menu-button" (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div class="sidebar-content">
+        <button mat-button routerLink="/owner/dashboard">Dashboard</button>
+        <button mat-button routerLink="/owner/restaurant">Restaurant</button>
+        <button mat-button routerLink="/owner/menu">Menu</button>
+        <button mat-button routerLink="/owner/order">Order</button>
+        <button mat-button routerLink="/owner/feedback">Feedback</button>
+        <button mat-button routerLink="/owner/inventory">Inventory</button>
+      </div>
+    </mat-sidenav>
+    <button
+    mat-icon-button
+    class="menu-button"
+    (click)="sidenav.toggle()"
+    *ngIf="!isSidenavOpen"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  </mat-sidenav-container>
+  

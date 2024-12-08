@@ -1,0 +1,71 @@
+ <!-- <h2>Complete Your Order</h2>
+
+ <div>
+   <label for="deliveryAddress">Delivery Address:</label>
+   <input
+     id="deliveryAddress"
+     type="text"
+     [(ngModel)]="deliveryAddress"
+     placeholder="Enter delivery address"
+   />
+ </div>
+ 
+ <h3>Choose Payment Method</h3>
+ <div>
+   <mat-radio-group [(ngModel)]="paymentMethod">
+     <mat-radio-button value="Card">Card</mat-radio-button>
+     <mat-radio-button value="Wallet">Wallet</mat-radio-button>
+     <mat-radio-button value="COD">Cash on Delivery</mat-radio-button>
+   </mat-radio-group>
+ </div>
+ 
+ <button mat-button (click)="onPay()">Pay Now</button>
+ <button mat-button (click)="onCancel()">Cancel</button>
+  -->
+
+  <h2>Complete Your Order</h2>
+
+<!-- Delivery Address Section -->
+<mat-card class="order-card">
+  <div class="input-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Delivery Address</mat-label>
+      <mat-icon matPrefix>location_on</mat-icon>
+      <input
+        id="deliveryAddress"
+        matInput
+        type="text"
+        [(ngModel)]="deliveryAddress"
+        placeholder="Enter delivery address"
+        required
+      />
+    </mat-form-field>
+  </div>
+</mat-card>
+
+<h3>Choose Payment Method</h3>
+
+<!-- Payment Methods -->
+<mat-card class="order-card">
+  <mat-radio-group [(ngModel)]="paymentMethod" class="payment-method-group">
+    <mat-radio-button value="Card">
+      <mat-icon>credit_card</mat-icon> Card
+    </mat-radio-button>
+    <mat-radio-button value="Wallet">
+      <mat-icon>account_balance_wallet</mat-icon> Wallet
+    </mat-radio-button>
+    <mat-radio-button value="COD">
+      <mat-icon>money</mat-icon> Cash on Delivery
+    </mat-radio-button>
+  </mat-radio-group>
+</mat-card>
+
+<!-- Action Buttons -->
+<div class="action-buttons">
+  <button mat-raised-button color="primary" (click)="onPay()">
+    <mat-icon>payment</mat-icon> Pay Now
+  </button>
+  <button mat-raised-button color="warn" (click)="onCancel()">
+    <mat-icon>cancel</mat-icon> Cancel
+  </button>
+</div>

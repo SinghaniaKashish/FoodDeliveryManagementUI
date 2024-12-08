@@ -1,0 +1,95 @@
+<app-owner-sidebar> </app-owner-sidebar>
+
+<div class="restaurant-management">
+    <div class="content-wrapper">
+      <!-- Left Side: Your Restaurants -->
+      <div class="restaurants-section">
+        <h2>Your Restaurants</h2>
+        <div class="restaurants-list">
+          <div *ngFor="let restaurant of restaurants" class="restaurant-card">
+            <mat-card>
+            
+              <img mat-card-image [src]="restaurant.imagePath" alt="Restaurant Image" />
+              <mat-card-title>{{ restaurant.name }}</mat-card-title>
+              <mat-card-content>
+                <p>Address: {{ restaurant.address }}</p>
+                <p>Cuisine: {{ restaurant.cuisineTypes.join(', ') }}</p>
+                <p>Phone: {{ restaurant.phone }}</p>
+                <p>Status: {{ restaurant.status ? 'Open' : 'Closed' }}</p>
+              </mat-card-content>
+              <mat-card-actions>
+                <button mat-button color="primary" (click)="editRestaurant(restaurant)">Edit</button>
+                <button mat-button color="warn" (click)="deleteRestaurant(restaurant.restaurantId)">Delete</button>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+          <div *ngIf="restaurants.length === 0">
+            No restaurants found. Please log in or add a new restaurant.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right Side: Add/Edit Form -->
+      <div class="form-section">
+        <h2>{{ isEditMode ? 'Edit Restaurant' : 'Add Restaurant' }}</h2>
+        <form [formGroup]="restaurantForm" (ngSubmit)="onSubmit()">
+          <mat-form-field appearance="fill">
+            <mat-label>Restaurant Name</mat-label>
+            <input matInput formControlName="name" placeholder="Enter restaurant name" />
+            <mat-error *ngIf="restaurantForm.get('name')?.invalid">
+              {{ getErrorMessage('name') }}
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Address</mat-label>
+            <textarea matInput formControlName="address" placeholder="Enter address"></textarea>
+            <mat-error *ngIf="restaurantForm.get('address')?.invalid">
+              {{ getErrorMessage('address') }}
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Cuisine Types</mat-label>
+            <input matInput formControlName="cuisineTypes" placeholder="Comma-separated cuisines" />
+            <mat-error *ngIf="restaurantForm.get('cuisineTypes')?.invalid">
+              {{ getErrorMessage('cuisineTypes') }}
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input matInput formControlName="phone" placeholder="Enter phone number" />
+            <mat-error *ngIf="restaurantForm.get('phone')?.invalid">
+              {{ getErrorMessage('phone') }}
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Hours of Operation</mat-label>
+            <input matInput formControlName="hoursOfOperation" placeholder="e.g., 9am-9pm" />
+            <mat-error *ngIf="restaurantForm.get('hoursOfOperation')?.invalid">
+              {{ getErrorMessage('hoursOfOperation') }}
+            </mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill">
+            <mat-label>Image URL</mat-label>
+            <input matInput formControlName="imagePath" placeholder="Optional: Enter image URL" />
+          </mat-form-field>
+  
+          <mat-slide-toggle formControlName="status" color="primary" [checked]="restaurantForm.get('status')?.value">
+            Open Status
+          </mat-slide-toggle>
+  
+          <div class="form-actions">
+            <button mat-raised-button color="primary" type="submit" [disabled]="restaurantForm.invalid">
+              {{ isEditMode ? 'Update' : 'Add' }} Restaurant
+            </button>
+            <button mat-button color="warn" *ngIf="isEditMode" (click)="cancelEdit()">Cancel</button>
+            <button mat-button color="accent" *ngIf="isEditMode" (click)="resetForm()">Add New Restaurant</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

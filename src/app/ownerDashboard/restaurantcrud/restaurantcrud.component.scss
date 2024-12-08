@@ -1,0 +1,93 @@
+.restaurant-management {
+  top:50px;
+}
+  
+  .content-wrapper {
+    position: absolute;
+    margin-left: 10% ;
+    margin-top: 20px;
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  
+  .restaurants-section {
+    margin-top: 20px;
+    flex: 1;
+    max-width: 40%; 
+    overflow-y: auto;
+  }
+  
+  .restaurants-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .restaurant-card {
+    width: 100%;
+    mat-card{
+        align-items: center;
+        mat-card-content{
+            margin-left: 2%;
+            align-self: flex-start;
+            font-size: 16px;
+        }
+        
+        button{
+            background-color: #d72344;
+            border: none;
+            border-radius: 4px;
+            margin:8%;
+            width:140px;
+            padding: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color:white;
+            font-size: 18px;
+        }
+    }
+    img{
+        width:75%;
+        border-radius: 10px;
+        margin-top: 2%;
+    }
+  }
+  
+  .form-section {
+    flex: 1;
+    max-width: 40%; 
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-self: center;
+    }
+    button{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column; 
+    }
+    .restaurants-section{
+      max-width:90%;
+    }
+    .form-section{
+      max-width:90%;
+      width: 80%
+    }
+  }
