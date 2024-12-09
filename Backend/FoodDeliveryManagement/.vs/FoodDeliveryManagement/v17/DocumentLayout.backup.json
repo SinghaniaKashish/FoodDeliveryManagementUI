@@ -1,0 +1,1032 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\FoodDeliveryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\data\\fooddeliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:data\\fooddeliverydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\ifeedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\ideliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\ideliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\services\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:services\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\ifeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\ideliveryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\ideliveryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\feedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\repositories\\deliveryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:repositories\\deliveryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\updateorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\updateorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\ingredientusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\ingredientusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\models\\assigndriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:models\\assigndriverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\restaurantstatisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\restaurantstatisticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|h:\\fooddeliverymanagement\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF16D7AF-45E8-43AF-918D-A0E82808B099}|FoodDeliveryManagement.csproj|solutionrelative:controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 163,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv0cAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:31:17.852Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Models\\Restaurant.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Restaurant.cs",
+              "RelativeToolTip": "Models\\Restaurant.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:50:31.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:53:01.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswJcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:35:59.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA5wEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:26:26.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\MenuService.cs",
+              "RelativeToolTip": "Services\\MenuService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:56.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:53:04.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwCsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:14:44.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:30:51.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FoodDeliveryDbContext.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Data\\FoodDeliveryDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\FoodDeliveryDbContext.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Data\\FoodDeliveryDbContext.cs",
+              "RelativeToolTip": "Data\\FoodDeliveryDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:46:52.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "Services\\RestaurantService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "Services\\RestaurantService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:53:08.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:53:11.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:48.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:46.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRestaurantService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IRestaurantService.cs",
+              "RelativeDocumentMoniker": "Services\\IRestaurantService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IRestaurantService.cs",
+              "RelativeToolTip": "Services\\IRestaurantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:44.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:43.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\IOrderService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IOrderService.cs",
+              "RelativeToolTip": "Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:41.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "Services\\InventoryService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\InventoryService.cs",
+              "RelativeToolTip": "Services\\InventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:38.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IMenuService.cs",
+              "RelativeDocumentMoniker": "Services\\IMenuService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IMenuService.cs",
+              "RelativeToolTip": "Services\\IMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:37.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "Services\\IInventoryService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IInventoryService.cs",
+              "RelativeToolTip": "Services\\IInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:36.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFeedbackService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IFeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\IFeedbackService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IFeedbackService.cs",
+              "RelativeToolTip": "Services\\IFeedbackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:34.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDeliveryService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\IDeliveryService.cs",
+              "RelativeDocumentMoniker": "Services\\IDeliveryService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\IDeliveryService.cs",
+              "RelativeToolTip": "Services\\IDeliveryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:32.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "Services\\FeedbackService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\FeedbackService.cs",
+              "RelativeToolTip": "Services\\FeedbackService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:29.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeliveryService.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Services\\DeliveryService.cs",
+              "RelativeDocumentMoniker": "Services\\DeliveryService.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Services\\DeliveryService.cs",
+              "RelativeToolTip": "Services\\DeliveryService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:26.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:52:23.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RestaurantRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\RestaurantRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RestaurantRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\RestaurantRepository.cs",
+              "RelativeToolTip": "Repositories\\RestaurantRepository.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:58.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PaymentRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:54.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:33.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MenuRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\MenuRepository.cs",
+              "RelativeToolTip": "Repositories\\MenuRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:19.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:17.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRestaurantRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IRestaurantRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRestaurantRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IRestaurantRepository.cs",
+              "RelativeToolTip": "Repositories\\IRestaurantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:15.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPaymentRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IPaymentRepository.cs",
+              "RelativeToolTip": "Repositories\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:13.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IOrderRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:11.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InventoryRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\InventoryRepository.cs",
+              "RelativeToolTip": "Repositories\\InventoryRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:05.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IMenuRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IMenuRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IMenuRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IMenuRepository.cs",
+              "RelativeToolTip": "Repositories\\IMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:04.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IInventoryRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IInventoryRepository.cs",
+              "RelativeToolTip": "Repositories\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:03.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IFeedbackRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IFeedbackRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IFeedbackRepository.cs",
+              "RelativeToolTip": "Repositories\\IFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:51:01.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDeliveryRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\IDeliveryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDeliveryRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\IDeliveryRepository.cs",
+              "RelativeToolTip": "Repositories\\IDeliveryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:50:58.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FeedbackRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\FeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FeedbackRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\FeedbackRepository.cs",
+              "RelativeToolTip": "Repositories\\FeedbackRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:50:55.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeliveryRepository.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Repositories\\DeliveryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DeliveryRepository.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Repositories\\DeliveryRepository.cs",
+              "RelativeToolTip": "Repositories\\DeliveryRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:49:54.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:49:45.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateOrderStatusRequest.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\UpdateOrderStatusRequest.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateOrderStatusRequest.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\UpdateOrderStatusRequest.cs",
+              "RelativeToolTip": "Models\\UpdateOrderStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:49:42.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:49:24.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:48:26.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Order.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:48:20.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "Models\\MenuItem.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\MenuItem.cs",
+              "RelativeToolTip": "Models\\MenuItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:48:02.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:48:00.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Models\\Inventory.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Inventory.cs",
+              "RelativeToolTip": "Models\\Inventory.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:52.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IngredientUsage.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\IngredientUsage.cs",
+              "RelativeDocumentMoniker": "Models\\IngredientUsage.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\IngredientUsage.cs",
+              "RelativeToolTip": "Models\\IngredientUsage.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:47.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Feedback.cs",
+              "RelativeToolTip": "Models\\Feedback.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\Delivery.cs",
+              "RelativeDocumentMoniker": "Models\\Delivery.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\Delivery.cs",
+              "RelativeToolTip": "Models\\Delivery.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:29.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "Models\\CartItemDTO.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\CartItemDTO.cs",
+              "RelativeToolTip": "Models\\CartItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:21.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:05.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AssignDriverDto.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Models\\AssignDriverDto.cs",
+              "RelativeDocumentMoniker": "Models\\AssignDriverDto.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Models\\AssignDriverDto.cs",
+              "RelativeToolTip": "Models\\AssignDriverDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:47:03.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:46:00.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RestaurantStatisticController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\RestaurantStatisticController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RestaurantStatisticController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\RestaurantStatisticController.cs",
+              "RelativeToolTip": "Controllers\\RestaurantStatisticController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAgwEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:44:49.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RestaurantController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "Controllers\\RestaurantController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:43:13.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:41:02.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:40:24.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA5wDkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:30:06.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeedbackController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:22:17.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DeliveryController.cs",
+              "DocumentMoniker": "H:\\FoodDeliveryManagement\\Controllers\\DeliveryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeliveryController.cs",
+              "ToolTip": "H:\\FoodDeliveryManagement\\Controllers\\DeliveryController.cs",
+              "RelativeToolTip": "Controllers\\DeliveryController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:18:53.299Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 237,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
