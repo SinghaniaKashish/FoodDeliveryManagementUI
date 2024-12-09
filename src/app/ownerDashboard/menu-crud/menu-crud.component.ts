@@ -11,12 +11,13 @@ import { MenuItem } from '../../models/menu-item.model';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { OwnerSidebarComponent } from "../owner-sidebar/owner-sidebar.component";
 import { AuthService } from '../../services/auth.service';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @Component({
   selector: 'app-menu-crud',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, MatCardModule, MatListModule, OwnerSidebarComponent],
+  imports: [CommonModule, MatButtonModule, MatIconModule, MatCardModule, MatListModule, OwnerSidebarComponent],
   templateUrl: './menu-crud.component.html',
   styleUrls: ['./menu-crud.component.scss']
 })

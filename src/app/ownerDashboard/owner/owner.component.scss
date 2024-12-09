@@ -1,52 +1,93 @@
 .dashboard-container {
-    margin: 2rem;
-    position: absolute;
+  position: absolute;
     margin-left: 10% ;
     margin-top: 20px;
     top: 0px;
     width: -webkit-fill-available;
+  padding: 16px;
+  .logoutbtn {
+    float: right;
+    margin-bottom: 16px;
   }
-  
-  .dashboard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    width: -webkit-fill-available;
-  }
-  
-  .logoutbtn{
-    margin-left:80vw;
+}
+
+.statistics-section {
+  margin-top: 16px;
+
+  .restaurants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
   }
 
-  .statistics-section {
-    margin-top: 2rem;
-  }
-  
   .restaurant-card {
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
+    background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .restaurant-icon {
+      font-size: 48px;
+    }
+
+    .restaurant-details {
+      flex: 1;
+
+      .restaurant-name {
+        margin: 0 0 8px;
+        font-size: 20px;
+        color: #3f51b5;
+      }
+
+      p {
+        margin: 4px 0;
+        display: flex;
+        align-items: center;
+
+        .info-icon {
+          font-size: 20px;
+          margin-right: 8px;
+          color: #757575;
+        }
+
+        strong {
+          margin-right: 4px;
+        }
+      }
+    }
   }
-  
-  .restaurant-card h2 {
-    margin-bottom: 0.5rem;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+
+  p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #757575;
   }
-  
-  .restaurant-card p {
-    margin: 0.25rem 0;
-    font-size: 0.9rem;
+}
+
+.no-restaurants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+
+  mat-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
   }
-  
-  mat-spinner {
-    display: block;
-    margin: 2rem auto;
+
+  p {
+    font-size: 16px;
+    color: #757575;
   }
-  
+}

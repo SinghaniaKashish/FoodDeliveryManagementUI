@@ -5,11 +5,12 @@ import { StatisticsService } from '../../services/statistics.service';
 import { AuthService } from '../../services/auth.service';
 import { CommonModule } from '@angular/common';
 import { MatSpinner } from '@angular/material/progress-spinner';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-owner',
   standalone: true,
-  imports: [MatCardModule, OwnerSidebarComponent, CommonModule, MatSpinner],
+  imports: [MatCardModule, OwnerSidebarComponent, CommonModule, MatIconModule, CommonModule, MatSpinner],
   templateUrl: './owner.component.html',
   styleUrl: './owner.component.scss'
 })

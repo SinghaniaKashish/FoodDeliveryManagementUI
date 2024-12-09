@@ -16,7 +16,7 @@
       </ng-template>
 
     <div *ngIf="orders.length > 0; " class="order-list">
-      <div *ngFor="let order of orders" class="order-card">
+      <!-- <div *ngFor="let order of orders" class="order-card">
         <h3>Order ID: {{ order.orderId }}</h3>
         <p>Status: {{ order.status }}</p>
         <p>Delivery Address: {{ order.deliveryAddress }}</p>
@@ -26,7 +26,6 @@
             {{ detail.quantity }} x {{ detail.name }} - {{ detail.price  }}
           </li>
         </ul>
-        <!-- Update Order Status Section -->
     <div class="update-status" *ngIf="canUpdateStatus(order.status)">
       <p>Update Status:</p>
       <button 
@@ -47,7 +46,52 @@
         Assign Driver
       </button>
     </div>
+      </div> -->
+
+
+      <div *ngFor="let order of orders" class="order-card mat-elevation-z4">
+        <mat-card>
+          <mat-card-header>
+            <mat-card-title>Order ID: {{ order.orderId }}</mat-card-title>
+            <mat-card-subtitle>Status: {{ order.status }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p><strong>Delivery Address:</strong> {{ order.deliveryAddress }}</p>
+            <p><strong>Total Amount:</strong> ₹{{ order.totalAmount }}</p>
+            <mat-divider></mat-divider>
+            <p><strong>Order Details:</strong></p>
+            <ul class="order-details-list">
+              <li *ngFor="let detail of order.orderDetails">
+                {{ detail.quantity }} x {{ detail.name }} - ₹{{ detail.price }}
+              </li>
+            </ul>
+          </mat-card-content>
+          <mat-card-actions align="start">
+            <!-- Update Order Status Section -->
+            <div class="update-status" *ngIf="canUpdateStatus(order.status)">
+              <span>Update Status:</span>
+              <button 
+                *ngIf="order.status === 'Pending'" 
+                mat-stroked-button color="primary" 
+                (click)="updateOrderStatus(order.orderId, 'Accepted')">
+                Accept
+              </button>
+              <button 
+                *ngIf="order.status === 'Accepted'" 
+                mat-stroked-button color="accent" 
+                (click)="updateOrderStatus(order.orderId, 'Prepared')">
+                Mark as Prepared
+              </button>
+            </div>
+            <div *ngIf="order.status === 'Prepared'" class="assign-driver">
+              <button mat-raised-button color="primary" (click)="assignDriver(order.orderId)">
+                Assign Driver
+              </button>
+            </div>
+          </mat-card-actions>
+        </mat-card>
       </div>
+      
     </div>
     
   </div>

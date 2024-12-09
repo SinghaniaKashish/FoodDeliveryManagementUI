@@ -1,70 +1,92 @@
 .owner-orders {
-    padding: 1rem;
-    position: absolute;
-    margin-left: 10% ;
-    margin-top: 20px;
-    width: -webkit-fill-available;
-    top: 0px;
-    
-    h1 {
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-  
-    .order-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-  
-    .order-card {
-      border: 1px solid #ddd;
-      border-radius: 8px;
       padding: 1rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
-      h3 {
-        margin: 0 0 0.5rem 0;
-      }
-  
-      .assign-driver {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: flex-end;
-      }
+      position: absolute;
+      margin-left: 10% ;
+      margin-top: 20px;
+      width: -webkit-fill-available;
+      top: 0px;
+}
+
+.restaurant-list {
+  display: flex;
+  gap: 16px;
+
+  .restaurant-item {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.02);
     }
   }
+}
+
+.order-list{
+  display: flex;
+  flex-wrap:wrap;
+}
+.order-card {
+  margin: 16px;
+  width: 200px;
   
 
-  .owner-orders {
-    padding: 1rem;
-    
-    h1 {
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-  
-    .order-list {
+  mat-card {
+    border-radius: 8px;
+    padding: 16px;
+
+    mat-card-header {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
-    }
-  
-    .order-card {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 1rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
-      h3 {
-        margin: 0 0 0.5rem 0;
+      align-items: flex-start;
+
+      mat-card-title {
+        font-size: 18px;
+        font-weight: bold;
       }
-  
-      .assign-driver {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: flex-end;
+
+      mat-card-subtitle {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    mat-card-content {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.8);
+
+      .order-details-list {
+        margin: 0;
+        padding-left: 16px;
+        list-style: none;
+
+        li {
+          margin: 4px 0;
+        }
+      }
+
+      mat-divider {
+        margin: 12px 0;
+      }
+    }
+
+    mat-card-actions {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      button {
+        font-size: 12px;
+        min-width: 120px;
+
+        &.assign-driver {
+          margin-top: 8px;
+        }
       }
     }
   }
+}
+
   

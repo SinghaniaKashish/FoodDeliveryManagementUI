@@ -12,11 +12,12 @@
     }
   
     .restaurant-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      display: flex;
       gap: 16px;
   
       .restaurant-item {
+        width: 200px;
+        text-align: center;
         cursor: pointer;
         transition: transform 0.2s ease-in-out;
   
@@ -25,46 +26,72 @@
         }
       }
     }
+
+    .addbtn{
+      margin-top: 10px;
+      background-color: var(--strawberry);
+    }
   
     .menu-section {
       margin-top: 32px;
-  
-      .menu-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 8px;
-      }
+
     }
   }
   
-
-  .menu-item {
+  .menu-list {
     display: flex;
-    flex-direction: column;
-    margin: 10px 0;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-  }
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
   
-  .menu-item div {
-    margin: 5px 0;
-  }
+    .menu-item-card {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      padding: 16px;
+      background: #fff;
+      border-radius: 8px;
   
-  mat-list-item {
-    padding: 15px;
-  }
+      .menu-item-content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
   
-
-  .menu-item {
-    padding: 10px;
-    margin: 10px 0;
-    border-bottom: 1px solid #ddd;
-  }
+        .menu-item-image {
+          width: 80px;
+          height: 80px;
+          border-radius: 4px;
+          margin-right: 16px;
+          object-fit: cover;
+        }
   
-  .menu-item div {
-    margin: 5px 0;
-  }
+        .menu-item-details {
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          line-height: 1.5;
+  
+          strong {
+            font-weight: bold;
+          }
+        }
+      }
+  
+      .menu-item-actions {
+        display: flex;
+        justify-content: space-between;
+  
+        button {
+          display: flex;
+          align-items: center;
+  
+          mat-icon {
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+  }  
   
   .menu-actions {
     margin-top: 10px;

@@ -14,34 +14,44 @@
     <ng-template #noRestaurants>
       <p>No restaurants found. Please add restaurants.</p>
     </ng-template>
-  
+
+  <!-- Add New Menu Item Button -->
+  <button mat-raised-button color="accent" class = "addbtn" (click)="addMenuItem()">Add New Item</button>
+
     <!-- Menu Section -->
     <div *ngIf="selectedRestaurant" class="menu-section">
       <h3>{{ selectedRestaurant.name }} Menu</h3>
   
       <!-- Menu Items List -->
       <div *ngIf="menuItems.length; else noMenuItems">
-        <mat-list>
-          <div *ngFor="let item of menuItems" class="menu-item">
-            <div mat-line><strong>Name:</strong> {{ item.name }}</div>
-            <div mat-line><strong>Category:</strong> {{ item.category }}</div>
-            <div mat-line><strong>Price:</strong> {{ item.price }}</div>
-            <div class="menu-actions">
-              <button mat-button color="warn" (click)="deleteMenuItem(item.itemId)">Delete</button>
-              <button mat-button color="primary" (click)="editMenuItem(item)">Edit</button>
+      
+        <mat-list class="menu-list">
+          <mat-card *ngFor="let item of menuItems" class="menu-item-card mat-elevation-z4">
+            <div class="menu-item-content">
+              <img [src]="item.imagePath" alt="{{ item.name }}" class="menu-item-image" />
+              <div class="menu-item-details">
+                <div><strong>Name:</strong> {{ item.name }}</div>
+                <div><strong>Category:</strong> {{ item.category }}</div>
+                <div><strong>Price:</strong> ₹{{ item.price }}</div>
+              </div>
             </div>
-          </div>
+            <div class="menu-item-actions">
+              <button mat-raised-button color="warn" (click)="deleteMenuItem(item.itemId)">
+                <mat-icon>delete</mat-icon> Delete
+              </button>
+              <button mat-raised-button color="primary" (click)="editMenuItem(item)">
+                <mat-icon>edit</mat-icon> Edit
+              </button>
+            </div>
+          </mat-card>
         </mat-list>
+        
       </div>
 
       <ng-template #noMenuItems>
         <p>No menu items available for this restaurant.</p>
       </ng-template>
       
-      
-  
-      <!-- Add New Menu Item Button -->
-      <button mat-raised-button color="accent" (click)="addMenuItem()">Add New Item</button>
     </div>
   </div>
   

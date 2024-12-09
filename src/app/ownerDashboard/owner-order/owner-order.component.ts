@@ -7,11 +7,12 @@ import { RestaurantService } from '../../services/restaurant.service';
 import { AuthService } from '../../services/auth.service';
 import { MenuService } from '../../services/menu.service';
 import { HttpClient } from '@angular/common/http';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-owner-order',
   standalone: true,
-  imports: [CommonModule, OwnerSidebarComponent, MatCardModule],
+  imports: [CommonModule, MatDividerModule, OwnerSidebarComponent, MatCardModule],
   templateUrl: './owner-order.component.html',
   styleUrl: './owner-order.component.scss'
 })

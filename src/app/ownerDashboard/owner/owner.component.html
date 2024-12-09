@@ -1,17 +1,25 @@
-<app-owner-sidebar> </app-owner-sidebar>
+
+
+   <app-owner-sidebar></app-owner-sidebar>
 <div class="dashboard-container">
-    
-    <button mat-raised-button class = "logoutbtn" (click)="logout()">Logout</button>
-  
-    <section class="statistics-section" *ngIf="!loading; else loadingTemplate">
-      <div *ngIf="restaurants.length > 0; else noRestaurants">
-        
-        <div *ngFor="let restaurant of restaurants" class="restaurant-card">
-          <h2>{{ restaurant.name }}</h2>
-          <p>Total Revenue:  {{ restaurant.totalRevenue  }}</p>
-          <p>Revenue This Month: {{ restaurant.revenueThisMonth }}</p>
+  <button mat-raised-button class="logoutbtn" (click)="logout()">Logout</button>
+
+  <section class="statistics-section" *ngIf="!loading; else loadingTemplate">
+    <div *ngIf="restaurants.length > 0; else noRestaurants" class="restaurants-grid">
+      <div *ngFor="let restaurant of restaurants" class="restaurant-card">
+        <div class="restaurant-details">
+          <h2 class="restaurant-name">{{ restaurant.name }}</h2>
           <p>
-            Best Seller: 
+            <mat-icon class="info-icon">attach_money</mat-icon>
+            <strong>Total Revenue:</strong> ₹{{ restaurant.totalRevenue }}
+          </p>
+          <p>
+            <mat-icon class="info-icon">calendar_today</mat-icon>
+            <strong>Revenue This Month:</strong> ₹{{ restaurant.revenueThisMonth }}
+          </p>
+          <p>
+            <mat-icon class="info-icon">star</mat-icon>
+            <strong>Best Seller:</strong>
             <span *ngIf="restaurant.bestSeller; else noBestSeller">
               {{ restaurant.bestSeller.itemName }} ({{ restaurant.bestSeller.totalQuantity }} sold)
             </span>
@@ -19,14 +27,20 @@
           <ng-template #noBestSeller>Not available</ng-template>
         </div>
       </div>
-    </section>
-  
-    <ng-template #loadingTemplate>
+    </div>
+  </section>
+
+  <ng-template #loadingTemplate>
+    <div class="loading-container">
       <mat-spinner></mat-spinner>
-    </ng-template>
-  
-    <ng-template #noRestaurants>
+      <p>Loading restaurant data...</p>
+    </div>
+  </ng-template>
+
+  <ng-template #noRestaurants>
+    <div class="no-restaurants">
+      <mat-icon color="warn">info</mat-icon>
       <p>No restaurants found for this owner.</p>
-    </ng-template>
-  </div>
-  
+    </div>
+  </ng-template>
+</div>
